@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution URL]:(https://github.com/soundsmetallic/profile_card_component)
-- [Live Site URL]:(https://soundsmetallic.github.io/profile_card_component/)
+- [Solution URL](https://github.com/soundsmetallic/profile_card_component)
+- [Live Site URL](https://soundsmetallic.github.io/profile_card_component/)
 
 ## My process
 
