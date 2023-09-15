@@ -18,7 +18,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: top 400% left -40%/60% no-repeat url(../images/bg-pattern-top.svg), bottom 500% right -25%/60% no-repeat url(../images/bg-pattern-bottom.svg), hsl(185, 75%, 39%);
+  background: top 400% left -25%/60% no-repeat url(../images/bg-pattern-top.svg), bottom 500% right -25%/60% no-repeat url(../images/bg-pattern-bottom.svg), hsl(185, 75%, 39%);
 }
 
 footer {
