@@ -1,0 +1,113 @@
+$clr-primary-100: hsl(185, 75%, 39%);
+$clr-primary-200: hsl(229, 23%, 23%);
+$clr-primary-300: hsl(227, 10%, 46%);
+
+$clr-neutral-100: hsl(0, 0%, 59%);
+
+$font-family: 'Kumbh Sans', sans-serif;
+
+/* General Styling */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+}
+
+/* Background */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: top 400% left -40%/ 60% no-repeat url(../images/bg-pattern-top.svg),
+                bottom 500% right -25% / 60% no-repeat url(../images/bg-pattern-bottom.svg),
+                $clr-primary-100;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Preview Card Styling */
+
+.profile-card {
+    width: 350px;
+    min-width: 350px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: top/ contain no-repeat url(../images/bg-pattern-card.svg),
+                white;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 88px;
+}
+
+.social-stats {
+    display: flex;
+    border-top: 1px solid $clr-primary-300;
+    width: 100%;
+    padding: 1.5rem 0;
+    margin-top: 1.5rem;
+    justify-content: center;
+    p {
+        font-size: .75rem;
+        margin-top: .25rem;
+    }
+}
+
+h1, h2 {
+    font-size: 1rem;
+    color: $clr-primary-200;
+    font-weight: 700;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    margin-bottom: .75rem;
+}
+
+
+span, p {
+    color: $clr-primary-300;
+    font-weight: 400;
+}
+
+span {
+    padding-left: .5rem;
+}
+
+p {
+    font-size: .9rem;
+}
+
+.social-stats > * {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px) {
+    main {
+        background: top -75% left -400px / 150% no-repeat url(../images/bg-pattern-top.svg),
+                    bottom -150px right -400px / 150% no-repeat url(../images/bg-pattern-bottom.svg),
+                    $clr-primary-100;
+    }
+}
